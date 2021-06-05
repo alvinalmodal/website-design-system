@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+header {
+  width: 80vw;
+  margin: 1em auto;
+  font-weight: bold;
+}
+
+.card {
+  border: 2px solid #a2a2a6;
+  padding: 5px;
+  width: 80vw;
+  margin: 0.5em auto;
+}
+
+.card-title {
+  margin: 1em 2px 1.25em 2px;
+}
+
+.inline-block.colors {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  line-height: 2;
+  margin: 0.25em 2px;
+}
+
+.inline-block.fonts {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 0.25em 2px;
+}
+
+.block {
+  display: block;
+  width: 32%;
+  text-align: justify;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.block ul {
+  margin-left: 3em;
+}
+
+.block.heading h1 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.block.heading {
+  font-family: "Nunito Sans";
+}
+
+.block.subheading h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.block.subheading {
+  font-family: "Poppins";
+}
+
+.block.paragraph p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.block.paragraph {
+  font-family: "Poppins";
+}
